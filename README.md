@@ -1,5 +1,5 @@
 [![Gem Version](https://badge.fury.io/rb/rbplotly.svg)](https://badge.fury.io/rb/rbplotly)
-[![Build Status](https://travis-ci.org/ash1day/rbplotly.svg?branch=master)](https://travis-ci.org/ash1day/rbplotly)
+[![Build Status](https://github.com/b08x/rbplotly/actions/workflows/rubygem.yml/badge.svg?branch=development)](https://github.com/b08x/rbplotly/actions/workflows/rubygem.yml)
 [![Test Coverage](https://codeclimate.com/github/ash1day/rbplotly/badges/coverage.svg)](https://codeclimate.com/github/ash1day/rbplotly/coverage)
 [![Code Climate](https://codeclimate.com/github/ash1day/rbplotly/badges/gpa.svg)](https://codeclimate.com/github/ash1day/rbplotly)
 
@@ -9,10 +9,8 @@ Rbplotly, a Ruby visualization library, allows you to create interactive plots.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
 ```ruby
-gem 'rbplotly'
+gem "rbplotly", "1.0.2", source: "https://rubygems.pkg.github.com/b08x"
 ```
 
 And then execute:
